@@ -91,7 +91,23 @@ door()
 
 
 
+def grass():
+    turtle.color("black","green")
+    turtle.goto(-650,-150)
+    turtle.left(90)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.forward(1300)
+    turtle.right(90)
+    turtle.forward(180)
+    turtle.right(90)
+    turtle.forward(1300)
+    turtle.right(90)
+    turtle.forward(180)
+    turtle.end_fill()
+    turtle.penup()
 
+grass()
 
 
 
